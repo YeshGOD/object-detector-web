@@ -1,0 +1,50 @@
+body
+{
+    background-position: center;
+    background-size: cover;
+}
+
+.text-warning
+{
+    font-family: roboto;
+    font-size: 25px;
+
+    animation-duration: 5s;
+    animation-name: anchor;
+    animation-iteration-count: infinite;
+}
+
+hr
+{
+    animation-duration: 3s;
+    animation-name: line;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anchor
+{
+    from
+    {
+        background-color: green;
+    }
+
+    to
+    {
+        background-color: violet;
+    }
+}
+
+@keyframes line
+{
+    from
+    {
+        width: 0%;
+        box-shadow: 10px 10px 10px yellow;
+    }
+
+    to
+    {
+        width: 100%;
+        box-shadow: 5px 5px 5px red;
+    }
+}
